@@ -16,6 +16,14 @@
   line-height: 24px;
 }
 
+.main-nav-list__link:hover {
+  opacity: 0.5;
+}
+
+.main-nav-list__link:active {
+  opacity: 0.3;
+}
+
 .main-nav-list__item:nth-child(1) {
   margin: 47px 20px 49px 56px;
 }

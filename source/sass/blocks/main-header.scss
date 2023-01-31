@@ -1,4 +1,18 @@
-.main-header__image {
-  margin-left: 56px;
-  margin-right: 56px;
+@media (min-width: $desktop-width) {
+  .main-header__image {
+    margin-left: 56px;
+    margin-right: 56px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header__logo-image:hover {
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header__logo-image:active {
+    opacity: 0.3;
+  }
 }
