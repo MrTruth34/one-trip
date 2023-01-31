@@ -1,25 +1,19 @@
-@media (min-width: $desktop-width) {
-  .description {
-    text-align: center;
-    background-color: #ffffff;
-  }
+.description {
+  text-align: center;
+  background-color: #ffffff;
 }
 
-@media (min-width: $desktop-width) {
-  .description__title {
-    font-family: "Azeret Mono", "Arial", sans-serif;
-    text-align: center;
-    padding-top: 220px;
-    margin-top: 0;
-  }
+.description__title {
+  font-family: "Azeret Mono", "Arial", sans-serif;
+  text-align: center;
+  padding-top: 220px;
+  margin-top: 0;
 }
 
-@media (min-width: $desktop-width) {
-  .description__slogan {
-    padding: 0 286px 244px 286px;
-    margin-bottom: 0;
-    font-weight: 400;
-    line-height: 45px;
-    font-size: 32px;
-  }
+.description__slogan {
+  padding: 0 286px 244px 286px;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 45px;
+  font-size: 32px;
 }

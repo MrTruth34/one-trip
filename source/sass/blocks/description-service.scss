@@ -1,41 +1,30 @@
-@media (min-width: $desktop-width) {
-  .description-service {
-    display: flex;
-    justify-content: space-between;
-    background-color: #aa9e54;
-    color: #ffffff;
-  }
+.description-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #aa9e54;
+  color: #ffffff;
 }
 
-@media (min-width: $desktop-width) {
-  .description-service__text {
-    text-align: center;
-    padding: 120px 0 227px 141px;
-  }
+.description-service__text {
+  text-align: center;
+  padding: 120px 0 227px 141px;
 }
 
-@media (min-width: $desktop-width) {
-  .description-service__slogan {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 36px;
-  }
+.description-service__slogan {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
 }
 
-@media (min-width: $desktop-width) {
-  .description-service__title {
-    font-family: "Azeret Mono", "Arial", sans-serif;
-  }
+.description-service__title {
+  font-family: "Azeret Mono", "Arial", sans-serif;
 }
 
-@media (min-width: $desktop-width) {
-  .description-service__text--second {
-    padding: 100px 0 227px 0;
-  }
+.description-service__text--second {
+  padding: 100px 0 227px 0;
 }
 
-@media (min-width: $desktop-width) {
-  .description-service__text--third {
-    padding: 120px 75px 227px 0;
-  }
+.description-service__text--third {
+  padding: 120px 75px 227px 0;
 }
