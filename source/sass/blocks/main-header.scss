@@ -1,10 +1,17 @@
-.main-header__image {
-  margin-left: 56px;
-  margin-right: 56px;
-}
 
 .main-header {
   width: 100%;
+  background-image: url("../img/mountains.jpg");
+  background-repeat: no-repeat;
+ }
+
+.main-header__image {
+   margin-left: 56px;
+    margin-right: 56px;
+  }
+
+.main-header__logo-image {
+  margin-top: 27px;
 }
 
 .main-header__logo-image:hover {
