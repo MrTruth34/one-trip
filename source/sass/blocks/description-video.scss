@@ -18,14 +18,14 @@
 @media (min-width: $tablet-width) {
 .description-video__button {
   position: absolute;
-  top: 20%;
-  left: 45%;
-  background-image: url("../source/img/icon-play-video.svg");
+  top: 30%;
+  left: 50%;
   width: 70px;
   height: 70px;
   border: none;
   display: block;
   z-index: 2;
+  background: rgba(205, 214, 219, 0);
  }
 }
 
@@ -55,3 +55,9 @@
   }
 }
 
+
+@media (min-width: $tablet-width) {
+  .description-video__video {
+    position: relative;
+  }
+}
