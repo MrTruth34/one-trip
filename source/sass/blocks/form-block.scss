@@ -1,0 +1,55 @@
+@media (min-width: $tablet-width) {
+  .form-block {
+    margin-top: -38px;
+    margin-left: 104px;
+    margin-right: 104px;
+    padding: 16px 26px 14px 42px;
+    border-radius: 19px;
+    background: #2F3347;
+    z-index: 1;
+
+  }
+}
+
+.form-dates__field {
+  width: 404px;
+  background-color:#D9D9D9;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  color: rgba(47, 51, 71, 0.7);
+  padding: 1px 0 0 11px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 6px;;
+}
+
+.form-dates__submit {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  background: rgba(47, 51, 71, 0.6);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 7px;
+}
+
+.form__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-dates__label::placeholder{
+  background: #D9D9D9;
+}

@@ -1,0 +1,29 @@
+@media (min-width: $tablet-width) {
+.description-block__wrapper {
+  font-family: 'Montserrat';
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+ }
+}
+
+@media (min-width: $tablet-width) {
+  .description-block__title {
+   margin: 48px 29px 32px 84px;
+    font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+ }
+}
+
+@media (min-width: $tablet-width) {
+  .description-block__slogan {
+   margin: 55px 0 33px 24px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   text-align: right;
+ }
+}
