@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>One-trip</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link href="./css/style.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
   <link href="https: //fonts.googleapis.com/css2?family= Poppins :wght@300 & display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
@@ -16,95 +17,109 @@
 
 <body class="page-body">
   <header class="main-header">
-    <a class="main-header__logo" href="index.html"><img class="main-header__logo-image" src="img/logo.svg" width="84"
-        height="29" alt="Логотип"></a>
     <nav class="main-nav">
       <ul class="main-nav-list">
+        <li class=""main-nav-list__item><a class="main-nav-list__link" href="index.html"><img class="main-header__logo-image" src="img/logo.svg" width="84"
+        height="29" alt="Логотип"></a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">TRIP PLANNER</a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">FAQ</a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">USD</a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">EN</a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link">Contact</a></li>
+        <li class="main-nav-list__item"><a class="main-nav-list__link"><span class="visually">Иконка</span></a></li>
       </ul>
     </nav>
-  </header>
-  <main class="main-container">
-    <section class="main-description">
-      <div class="main-description-wrapper">
-        <h class="main-description__header">
-          Transfer and tours around Georgia from private drivers
-        </h>
-        <p class="main-description__slogan">
-          Incredibly friendly locals will tell you all about Georgia's most picturesque,
-          breathtaking, and gastronomic must-visit places
+      <div class="description-wrapper">
+        <h2 class="description-wrapper__header">
+          Transfer and<br> tours around<br> Georgia from<br> private drivers
+        </h2>
+        <p class="description-wrapper__slogan">
+          Incredibly friendly locals will tell you all about<br> Georgia's most picturesque,
+          breathtaking, and<br> gastronomic must-visit places
         </p>
       </div>
-    </section>
+  </header>
+  <main class="main-container">
     <section class="form">
       <fieldset class="form-block">
         <form class="form__form" action="#" method="post">
-          <label class="form-dates__label" for="field"><span class="form-dates__label-field">
+          <label class="form-dates__label" for="field"><span class="visually-hidden">
               Point of departure?Choose the airport or city</span>
             <input class="form-dates__field" name="airorort" type="text" id="field"
               placeholder="Point of departure?Choose the airport or city" required></label>
-          <label class="form-dates__label" for="empty"><span class="form-dates__label-field">
+          <label class="form-dates__label" for="empty"><span class="visually-hidden">
               Point of arrival?choose the airport or city</span>
             <input class="form-dates__field" type="text" id="empty"
               placeholder="Point of arrival?choose the airport or city" name="departure" required></label>
-          <button class="form-dates__submit" type="submit">Add destination</button>
-          <label class="form-dates__label" for="start"><span class="form-dates__label-field">
+          <button class="form-dates__submit" type="submit">+ Add destination</button>
+          <div class="form-block-wrapper">
+          <label class="form-dates__label" for="start"><span class="visually-hidden">
               Point of arrival?choose the airport or city</span>
-            <input class="form-dates__field" type="date" id="start" name="start-date" placeholder="When..."
-              required></label>
-          <button class="form-dates__submit" type="submit">Find a car</button>
+            <input class="form-dates__field form-dates__field--date" type="date" id="start" name="start-date"
+              required><span class="visually-hidden">When...</span></label>
+          <button class="form-dates__submit form-dates__submit--find" type="submit">Find a car</button>
+          </div>
         </form>
       </fieldset>
     </section>
     <section class="description-block">
       <div class="description-block__wrapper">
-        <h class="description-block__title">Travel any corner of the world</h>
+        <h2 class="description-block__title">Travel any corner<br> of the world</h2>
         <p class="description-block__slogan">
-          We’re offering simple policies for reservation changes, so you can book your getaway with confidence
+          We’re offering simple policies for<br> reservation changes, so you can<br> book your getaway with confidence
         </p>
       </div>
+      <img class="description-block__image" src="../source/img/car.jpg" width="584" height="390" alt="Машина">
       <ul class="description-block-list">
-        <li class="description-block-list__item">Passenger insurance</li>
-        <li class="description-block-list__item">Drinking water for every passenger free of carrge</li>
-        <li class="description-block-list__item">The driver will wait for you throught the day without extra charge</li>
-        <li class="description-block-list__item">Unlimited number of stops for taking pictures</li>
+        <li class="description-block-list__item">Passenger<br> insurance</li>
+        <li class="description-block-list__item">Drinking water for<br> every passenger<br> free of carrge</li>
+        <li class="description-block-list__item">The driver will wait for<br> you throught the day<br> without extra charge</li>
+        <li class="description-block-list__item">Unlimited number<br> of stops<br> for taking pictures</li>
       </ul>
     </section>
     <section class="description-container">
-      <h class="description-container__title">Popular destinations</h>
+      <h2 class="description-container__title">Popular destinations</h2>
       <p class="description-container__slogan">These destinations are popular among travelers</p>
       <div class="description-container-wrapper">
-        <img class="description-block__wrapper__image" src="#" width="292" height="195" alt="Горы">
-        <p class="description-block__wrapper__slogan">From Tbilisi to Kazbegi</p>
-        <img class="description-block__wrapper__image" src="#" width="420" height="236" alt="Батуми">
-        <p class="description-block__wrapper__slogan">From Tbilisi to Batumi</p>
-        <img class="description-block__wrapper__image" src="#" width="283" height="184" alt="Тбилиси">
-        <p class="description-block__wrapper__slogan">From Tbilisi airport to Tbilisi</p>
+        <div class="description-container-wrapper__block description-container-wrapper__block--first">
+        <img class="description-block__wrapper__image" src="../source/img/picture-1.jpg" width="150" height="184" alt="Горы">
+        <p class="description-block__wrapper__slogan">From Tbilisi to<br> Kazbegi</p>
+        </div>
+        <div class="description-container-wrapper__block description-container-wrapper__block--second">
+        <img class="description-block__wrapper__image" src="../source/img/picture-2.jpg" width="192" height="235" alt="Батуми">
+        <p class="description-block__wrapper__slogan description-block__wrapper__slogan--second">From Tbilisi to<br> Batumi</p>
+        </div>
+        <div class="description-container-wrapper__block description-container-wrapper__block--third">
+        <img class="description-block__wrapper__image" src="../source/img/picture-3.jpg" width="150" height="184" alt="Тбилиси">
+        <p class="description-block__wrapper__slogan">From Tbilisi<br> airport to Tbilisi</p>
+        </div>
       </div>
       <div class="description-video">
         <div class="description-video__video">
-          <img class="video__video-image" src="img/video-mobile.jpg" width="238" height="219"
+          <img class="video__video-image" src="../source/img/airoport-video.jpg" width="238" height="219"
             alt="Заставка видеоролика">
           <button class="description-video__button" type="button"><span class="visually-hidden">play</span></button>
         </div>
         <div class="description-video-container">
-          <h class="description-video-container__title">Explore Georgia With One Trip</h>
+          <h2 class="description-video-container__title">Explore Georgia<br> With One Trip</h2>
           <p class="description-video-container__slogan">Start by exploring Stays or Experiences. Apply filters like
-            entire homes, self check-in, or pets allowed to narrow your options.
-            You can also save favorites to a wishlist.</p>
-          <button class="description-video-container__submit" type="button">Watch Video</button>
-          <button class="description-video-container__submit" type="button">More info</button>
+            entire<br> homes, self check-in, or pets allowed to narrow your options.
+            You<br> can also save favorites to a wishlist.</p>
+            <div class="description-video-submit">
+          <button class="description-video-submit__button" type="button">Watch Video</button>
+          <button class="description-video-container__button description-video-container__button--dark" type="button">More info</button>
+            </div>
         </div>
       </div>
     </section>
     <section class="container">
-      <h class="container__tatile">Travel around Georgia with GOTRIP</h>
+      <div class="container__block">
+      <div class="container__block-wrapper">
+      <h2 class="container__tatile">Travel around Georgia with<br> GOTRIP</h2>
       <button class="container__submit" type="submit">Plan your trip</button>
-      <img class="container__image" src="#" width="611" height="429" alt="Фемида-статуя">
+      </div>
+      <img class="container__image" src="../source/img/femida-tablet.png" width="611" height="429" alt="Фемида-статуя">
+      </div>
     </section>
   </main>
   <footer class="main-footer">
@@ -134,7 +149,5 @@
       </ul>
     </nav>
   </footer>
-  </main>
 </body>
-
 </html>

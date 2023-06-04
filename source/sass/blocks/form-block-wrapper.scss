@@ -1,0 +1,32 @@
+.form-block-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.form-dates__field--date {
+  width: 75px;
+  border: 1px solid #D8D8D8;
+  border-radius: 7px;
+  margin: 0 15px 15px 0;
+  background-color: rgba(47, 51, 71, 0.6);
+  color: #ffffff;
+  padding: 3px 6px 3px 9px;
+}
+
+.form-dates__submit--find {
+  background: linear-gradient(99.59deg, #338CCC 3.28%, rgba(77, 171, 238, 0.984375) 3.29%, #347AAC 109.99%);
+  border-radius: 20px;
+  padding: 7px 9px 7px 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  width: 99px;
+  height: 32px;
+}

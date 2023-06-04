@@ -1,20 +1,87 @@
+@media (min-width: $tablet-width) {
 .main-nav-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+}
 
+@media (min-width: $tablet-width) {
 .main-nav-list__link {
-  text-decoration: none;
-  color: #d27487;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 60px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(1) {
+  margin-top: 27px;
+  margin-left: 87px;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(2) {
+  margin-top: 38px;
+  margin-left: 23px;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(3) {
+  margin-top: 38px;
+  margin-left: 20px;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(4) {
+  margin-top: 38px;
+  margin-left: 147px;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(5) {
+  margin-top: 42px;
+  margin-left: 4px;
+  border: 1px solid #FFFFFF;
+  border-radius: 9px;
+  width: 12px;
+  padding: 0 2px 2px 20px;
+  height: 12px;
+  display: flex;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(6) {
+  margin-top: 42px;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 9px;
+  height: 12px;
+  padding: 1px 17px;
+}
+}
+
+@media (min-width: $tablet-width) {
+.main-nav-list__item:nth-child(7) {
+  margin-top: 34px;
+  margin-left: 12px;
+}
 }
 
 .main-nav-list__link:hover {
@@ -23,36 +90,4 @@
 
 .main-nav-list__link:active {
   opacity: 0.3;
-}
-
-.main-nav-list__item:nth-child(1) {
-  margin: 47px 20px 49px 56px;
-}
-
-.main-nav-list__item:nth-child(2) {
-  margin: 47px 0 49px 0;
-}
-
-.main-nav-list__item:nth-child(3) {
-  margin: 47px 20px 49px 20px;
-}
-
-.main-nav-list__item:nth-child(4) {
-  margin: 47px 296px 49px 0;
-}
-
-.main-nav-list__item:nth-child(5) {
-  margin: 44px 422px 44px 0;
-}
-
-.main-nav-list__item:nth-child(6) {
-  margin: 50px 16px 50px 0;
-}
-
-.main-nav-list__item:nth-child(7) {
-  margin: 48px 0 48px 0;
-}
-
-.main-nav-list__item:nth-child(8) {
-  margin: 49px 56px 48px 16px;
 }
