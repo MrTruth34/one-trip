@@ -9,8 +9,8 @@
   font-size: 8px;
   line-height: 10px;
   text-align: center;
-  margin-left: 45px;
-  margin-top: -50px;
+  margin-left: 91px;
+  margin-top: -41px;
   padding: 0;
  }
 }
@@ -21,18 +21,20 @@
     box-shadow: 0px 12px 24px rgba(27, 77, 123, 0.1);
     border-radius: 25px;
     margin-right: 16px;
-    width: 110px;
+    width: 92px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .description-block-list__item:nth-child(1) {
     padding: 46px 9px 14px 9px;
+    position: relative;
   }
 }
 
 @media (min-width: $tablet-width) {
   .description-block-list__item:nth-child(2) {
+    position: relative;
     padding: 46px 9px 14px 9px;
   }
 }
@@ -40,11 +42,93 @@
 @media (min-width: $tablet-width) {
   .description-block-list__item:nth-child(3) {
     padding: 46px 9px 14px 9px;
+    position: relative;
   }
 }
 
 @media (min-width: $tablet-width) {
   .description-block-list__item:nth-child(4) {
     padding: 46px 9px 14px 9px;
+    position: relative;
   }
+}
+
+@media(min-width: $tablet-width) {
+  .description-block-list__picture {
+    position: absolute;
+    top: 17px;
+    left: 48px;
+    z-index: 1;
+  }
+}
+
+
+@media (min-width: $tablet-width) {
+ .description-block-list__picture-ring {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+ }
+}
+
+@media (min-width: $tablet-width) {
+.description-block-list__image {
+  position: absolute;
+  top: 14px;
+  left: 48px;
+  z-index: 1;
+}
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-ring {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+ }
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-image{
+  position: absolute;
+  top: 15px;
+  left: 46px;
+  z-index: 1;
+ }
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-picture{
+  position: absolute;
+  top: 18px;
+  left: 51px;
+  z-index: 2;
+ }
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-clock{
+  position: absolute;
+  top: 11px;
+  left: 41px;
+  z-index: 0;
+ }
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-line {
+  position: absolute;
+  top: 17px;
+  left: 45px;
+  z-index: 1;
+ }
+}
+
+@media (min-width: $tablet-width) {
+ .description-block-list__image-ring {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+  z-index: 0;
+ }
 }

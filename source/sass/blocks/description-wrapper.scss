@@ -6,6 +6,7 @@
  @media (min-width: $tablet-width) {
    .description-wrapper {
     margin-left: 74px;
+    position: relative;
  }
 }
 
@@ -30,4 +31,10 @@
  }
 }
 
-
+@media (min-width: $tablet-width) {
+.description-wrapper__line {
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+ }
+}

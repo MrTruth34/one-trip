@@ -27,7 +27,11 @@
 }
 
 .main-footer-nav__list-link--white {
- padding: 8px 5px 5px 19px;
+ padding: 8px 0 5px 17px;
+ background: url("../img/flag.svg");
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    background-position-y: 3px;
 }
 
 @media (min-width: $tablet-width) {
