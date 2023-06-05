@@ -1,14 +1,14 @@
+.container {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  z-index: 0;
+}
 
+@media (min-width: $tablet-width) {
   .container {
-    color: #ffffff;
-    font-family: 'Montserrat';
-    font-style: normal;
-  }
-
-  @media (min-width: $tablet-width) {
-  .container {
-   margin-top: 106px;
-   margin-left: 54px;
+    margin-top: 106px;
+    margin-left: 54px;
   }
 }
 
@@ -50,36 +50,35 @@
 }
 
 @media (min-width: $tablet-width) {
- .container__block {
-   display: flex;
-   flex-wrap: wrap;
-   position: relative;
- }
+  .container__block {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
 }
 
 @media (min-width: $tablet-width) {
- .container__block-wrapper {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
- }
+  .container__block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: $tablet-width) {
-.container__picture {
-  margin-top: 10px;
-  position: absolute;
-  top: -26px;
-  right: 36px;
-  z-index: 1;
-}
+  .container__picture {
+    margin-top: 10px;
+    position: absolute;
+    top: -26px;
+    right: 36px;
+  }
 }
 
 @media (min-width: $tablet-width) {
-.container__picture-image {
-  position: absolute;
-  z-index: 1;
-  top: -43px;
-  right: 30px;
-}
+  .container__picture-image {
+    position: absolute;
+    z-index: 1;
+    top: -43px;
+    right: 30px;
+  }
 }
